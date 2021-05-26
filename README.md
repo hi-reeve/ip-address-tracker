@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/ip-address-tracker-with-reactjs-and-reactleaflet-nOWNfbd7N)
+- Live Site URL: [Live Site](https://ip-address-tracker-topaz.vercel.app/)
 
 
 ### Built with
