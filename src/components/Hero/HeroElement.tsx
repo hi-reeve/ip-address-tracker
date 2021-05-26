@@ -29,9 +29,13 @@ export const HeroInputWrapper = styled.div`
     align-items: center;
     position: relative;
     margin: 2rem auto;
-    width: 30%;
+    max-width: 30%;
+    width: 100%;
+    @media screen and (max-width: 1024px) {
+        max-width: 80%;
+    }
     @media screen and (max-width: 525px) {
-        width: 100%;
+        max-width: 100%;
     }
 `;
 
@@ -72,7 +76,8 @@ export const HeroButtonIcon = styled.img`
 `;
 
 export const HeroInfoWrapper = styled.div`
-    width: 80%;
+    max-width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -80,9 +85,9 @@ export const HeroInfoWrapper = styled.div`
     box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.25);
     padding: 1rem 2rem;
     border-radius: 10px;
-    @media screen and (max-width: 525px) {
+    @media screen and (max-width: 1024px) {
         flex-direction: column;
-        width: 100%;
+        max-width: 100%;
     }
 `;
 
@@ -91,7 +96,7 @@ export const HeroInfo = styled.div`
     margin: 0.5rem 0;
     padding: 1rem;
     flex-direction: column;
-    @media screen and (max-width: 525px) {
+    @media screen and (max-width: 1024px) {
         text-align: center;
         width: 100%;
         padding: 0;
