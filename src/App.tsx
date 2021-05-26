@@ -5,7 +5,6 @@ import {
     TileLayer,
     Marker,
     Popup,
-    useMap,
     MapConsumer,
 } from "react-leaflet";
 import IconLocation from "@/assets/images/icon-location.svg";
